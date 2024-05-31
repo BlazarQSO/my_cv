@@ -1,0 +1,5 @@
+@import url('./assets/fonts/font-face.scss');
+
+body {
+  background: rgb(198, 198, 198);
+}

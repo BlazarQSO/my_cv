@@ -1,0 +1,8 @@
+<party type="PHYSICAL" sourceSystem="AL" rawId="2">
+    <field name="name">John</field>
+    <field name="birthdate">01.01.2000</field>
+    <attribute type="PHONE" rawId="AL.2.PH.1">
+        <field name="type">MOBILE</field>
+        <field name="number">+1 123 1234567</field>
+    </attribute>
+</party>
