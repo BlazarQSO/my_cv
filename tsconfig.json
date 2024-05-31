@@ -5,9 +5,9 @@
     "module": "esnext",
     "target": "es5",
     "jsx": "react-jsx",
-    "allowJs": true,
+    "allowJs": false,
     "moduleResolution": "node",
-    "checkJs": true,
+    "checkJs": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "sourceMap": true,
@@ -23,6 +23,7 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
-  // "include": ["src/**/*", "tests/**/*", "declare.d.ts"]
+  },
+  "include": ["src/**/*", "tests/**/*", "configs", "./webpack.config.ts"],
+  "exclude": ["./eslint.config.js"]
 }

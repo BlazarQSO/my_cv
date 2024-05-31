@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
+  "rules": {
+    "alpha-value-notation": null,
+    "color-function-notation": null,
+    "selector-max-id": 0,
+    "selector-class-pattern": null,
+    "unit-allowed-list": ["%", "deg", "ms", "dvh", "px"],
+    "scss/at-import-partial-extension": "always",
+    "font-family-name-quotes": "always-unless-keyword",
+    "font-family-no-missing-generic-family-keyword": true
+  },
+  "defaultSeverity": "warning"
+}

@@ -5,9 +5,6 @@ interface SuspenseComponent {
   children: ReactNode;
 }
 
-export const SuspenseComponent: React.FC<SuspenseComponent> = ({
-  fallback = '...Loading',
-  children,
-}): JSX.Element => {
+export const SuspenseComponent: React.FC<SuspenseComponent> = ({ fallback = '...Loading', children }): JSX.Element => {
   return <Suspense fallback={fallback}>{children}</Suspense>;
 };
